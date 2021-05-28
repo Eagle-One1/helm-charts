@@ -9,16 +9,16 @@ then
 fi
 
 alias helm=/home/sebastien/Desktop/helm
-helm package $1 -d packages/
+helm package $1 -d docs/
 cp README.md .README.md
 git checkout gh-pages
 git pull
 # TODO do check version
 git checkout -b update-packages || git checkout update-packages
-helm repo index packages --url https://eagle-one1.github.io/helm-nut-exporter/
+helm repo index docs --url https://eagle-one1.github.io/helm-nut-exporter/
 mv .README.md README.md
 git add README.md
-git add packages
+git add docs
 git commit -m "Release chart $1 version"
 git push --set-upstream origin update-packages
 git checkout main
