@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  nut-exporter:
+  - apiVersion: v2
+    appVersion: 1.4.0
+    created: "2021-05-28T02:09:46.977401906+02:00"
+    description: A Helm chart for prometheus nut exporter
+    digest: 5164a4015115959c2807ae1db3efeea164cfcc1ca025dd9852cd9067213ce283
+    name: nut-exporter
+    type: application
+    urls:
+    - https://eagle-one1.github.io/helm-nut-exporter/nut-exporter-1.0.0.tgz
+    version: 1.0.0
+generated: "2021-05-28T02:09:46.975403623+02:00"
