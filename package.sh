@@ -15,7 +15,7 @@ git checkout gh-pages
 git pull
 # TODO do check version
 git checkout -b update-packages || git checkout update-packages
-helm repo index docs --url https://eagle-one1.github.io/helm-nut-exporter/
+helm repo index docs --url https://eagle-one1.github.io/helm-charts/
 mv .README.md README.md
 git add README.md
 git add docs
