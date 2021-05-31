@@ -9,6 +9,6 @@ entries:
     name: nut-exporter
     type: application
     urls:
-    - https://eagle-one1.github.io/helm-nut-exporter/nut-exporter-1.0.0.tgz
+    - https://eagle-one1.github.io/helm-charts/nut-exporter-1.0.0.tgz
     version: 1.0.0
 generated: "2021-05-28T02:09:46.975403623+02:00"
